@@ -11,6 +11,6 @@ jobs:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       with:
         fromMailAddress: 'tac@openmainframeproject.org'
-        toMailAddress: 'FILL IN'
-        subject: 'TSC meeting agenda for today'
+        toMailAddress: '[MAILING LIST EMAIL]'
+        subject: 'TSC meeting agenda'
         labelsToMonitor: 'meeting'
