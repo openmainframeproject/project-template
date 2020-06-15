@@ -1,4 +1,4 @@
-# PROJECTNAME TSC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
+# [PROJECT NAME] TSC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Date/Time
 
