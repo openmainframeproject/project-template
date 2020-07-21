@@ -2,7 +2,7 @@
 
 # Overview
 
-This project aims to be governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affilation. Participants are bound to the project's [Code of Conduct](code_of_conduct.md).
+This project aims to be governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affiliation. Participants are bound to the project's [Code of Conduct](code_of_conduct.md).
 
 # Project roles
 
@@ -10,10 +10,10 @@ This project aims to be governed in a transparent, accessible way for the benefi
 
 The contributor role is the starting role for anyone participating in the project and wishing to contribute code.
 
-# Process for becoming a contributor
+### Process for becoming a contributor
 
-* Review the CONTRIBUTING.md guidelines to ensure your contribution is inline with the project's coding and styling guidelines.
-* Submit your code as a PR with the appropriate DCO signoff
+* Review the [Contributing](CONTRIBUTING.md) guidelines to ensure your contribution is inline with the project's coding and styling guidelines.
+* Submit your code as a PR with the appropriate DCO sign-off
 * Have your submission approved by the committer(s) and merged into the codebase.
 
 ## Committer
@@ -42,7 +42,7 @@ the committers per the voting process below.
 
 ## Lead
 
-The project committers will elect a lead ( and optionally a co-lead ) which will be the primary point of contact for the project and representative to the TAC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continuted growth of the project.
+The project committers will elect a lead ( and optionally a co-lead ) which will be the primary point of contact for the project and representative to the TAC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continued growth of the project.
 
 # Release Process
 
@@ -59,7 +59,7 @@ be resolved by voting. The voting process is a simple majority in which each com
 
 This project, just like all of open source, is a global community. In addition to the [Code of Conduct](code_of_conduct.md), this project will:
 
-* Keep all communucation on open channels ( mailing list, forums, chat ).
+* Keep all communication on open channels ( mailing list, forums, chat ).
 * Be respectful of time and language differences between community members ( such as scheduling meetings, email/issue responsiveness, etc ).
 * Ensure tools are able to be used by community members regardless of their region.
 

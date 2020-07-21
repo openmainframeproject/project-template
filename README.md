@@ -37,4 +37,4 @@ PROJECT NAME is a project hosted by the [Open Mainframe Project](https://openmai
 
 
 ## Reporting Issues
-To report a problem, you can open an [issue](https://github.com/openmainframeproject/PROJECT NAME/issues) in repository against a specific workflow. If the issue is senstive in nature or a security related issue, please do not report in the issue tracker but instead email PROJECT NAME-private@lists.openmainframeproject.org.
+To report a problem, you can open an [issue](https://github.com/openmainframeproject/PROJECT NAME/issues) in repository against a specific workflow. If the issue is sensitive in nature or a security related issue, please do not report in the issue tracker but instead email PROJECT NAME-private@lists.openmainframeproject.org.
