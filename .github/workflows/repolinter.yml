@@ -14,5 +14,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: npm install -g git@github.com:todogroup/repolinter.git
+      - run: npm install -g git+https://github.com/todogroup/repolinter.git
       - run: repolinter lint -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
