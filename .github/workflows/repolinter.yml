@@ -12,5 +12,7 @@ jobs:
           fetch-depth: 0
       - name: Install Node.js
         uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
       - run: npm install -g repolinter
       - run: repolinter lint -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
