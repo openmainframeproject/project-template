@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install -g github:todogroup/repolinter.git#ae6688cddeed312d45a50d7439ae71383eb660e2
-      - run: repolinter lint -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY > repolint.txt 2> /dev/null
+      - run: repolinter lint --dryRun -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY > repolint.txt
       - uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
+          name: repolint
           path: repolint.txt
