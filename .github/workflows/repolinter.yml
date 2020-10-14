@@ -20,4 +20,4 @@ jobs:
       - name: "Install repolinter"
         run: npm install -g repolinter
       - name: "Run repolinter"
-        run: repolinter lint --dryRun -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY > repolint.txt
+        run: repolinter lint --dryRun -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
