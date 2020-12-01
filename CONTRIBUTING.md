@@ -1,22 +1,34 @@
-# This is a sample contributing document.  Tailor as needed for the project.
+_Use this file to detail how to make a contribution to the project. The structure below is generally recommended, but can be changed to meet the needs of the project_
 
-Each source file must include a license header for the Apache Software License 2.0. Using the SPDX format is the simplest approach. e.g.
+# Contributing to PROJECT NAME
+
+Thank you for your interest in contributing to PROJECT NAME. This document explains our contribution process and procedures:
+
+* [How to Contribute a Bug Fix or Change](#How-to-Contribute-a-Bug-Fix-or-Change)
+* [Development Workflow](#Development-Workflow)
+* [Coding Style](#Coding-Style)
+
+For a description of the roles and responsibilities of the various members of the PROJECT NAME community, see the [governance policies], and for further details, see the project's [Technical Charter]. Briefly, Contributors are anyone who submits content to the project, Committers review and approve such submissions, and the Technical Steering Committee provides general project oversight.
+
+If you just need help or have a question, refer to [SUPPORT.md](SUPPORT.md).
+
+## How to Contribute a Bug Fix or Change
+
+To contribute code to the project, first read over the [governance policies] page to understand the roles involved. 
+
+Each contribution must meet the [coding style] and include..
+
+* Tests and documentation to explain the functionality.
+* Any new files have [copyright and license headers]
+* A [Developer Certificate of Origin signoff].
+* Submitted to the project as a pull request.
+
+PROJECT NAME is licensed under the [LICENSE NAME](LICENSE.md) license. Contributions should abide by that standard license.
+
+Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
 
 
-` /*`
-`  Copyright <holder> <year>`
-` `
-`  SPDX-License-Identifier: Apache-2.0
-`
-`  */`
-
-We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach - the Developer's Certificate of Origin 1.1 (DCO) - that the Linux® Kernel community uses to manage code contributions.
-
-We simply ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message.
-
-Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
-
-Signed-off-by: John Doe <john.doe@example.com>
-You can include this automatically when you commit a change to your local git repository using the following command:
-
-`git commit -s`
+[governance policies]: GOVERNANCE.md
+[Technical Charter]: tsc/CHARTER.md
+[copyright and license headers]: https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification
+[Developer Certificate of Origin signoff]: https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#developer-certificate-of-origin
